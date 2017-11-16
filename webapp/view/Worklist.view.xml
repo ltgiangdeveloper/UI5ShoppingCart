@@ -1,0 +1,54 @@
+<mvc:View controllerName="vn.com.cateringvietnam.controller.Worklist" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc"
+	xmlns:semantic="sap.m.semantic">
+	<Page floatingFooter="true" id="page" showNavButton="false" showHeader="true">
+		<customHeader>
+			<Bar>
+				<contentMiddle>
+					<SegmentedButton selectedKey="kids" class="segmented_class">
+						<items>
+							<SegmentedButtonItem text="Bình Luận" key="kids"/>
+							<SegmentedButtonItem text="Đang Chiếu"/>
+							<SegmentedButtonItem text="Sắp Chiếu"/>
+						</items>
+					</SegmentedButton>
+				</contentMiddle>
+			</Bar>
+		</customHeader>
+		<content>
+			<List>
+				<items>
+					<CustomListItem>
+						<Image src="./images/item1.png" width="100%"/>
+					</CustomListItem>
+					<CustomListItem>
+						<Image src="./images/item2.png" width="100%"/>
+					</CustomListItem>
+					<CustomListItem>
+						<Image src="./images/item1.png" width="100%"/>
+					</CustomListItem>
+					<CustomListItem>
+						<Image src="./images/item2.png" width="100%"/>
+					</CustomListItem>
+					<CustomListItem>
+						<Image src="./images/item1.png" width="100%"/>
+					</CustomListItem>
+					<CustomListItem>
+						<Image src="./images/item2.png" width="100%"/>
+					</CustomListItem>
+				</items>
+			</List>
+		</content>
+		<footer>
+			<Toolbar>
+				<SegmentedButton selectedKey="1" width="100%">
+					<items>
+						<SegmentedButtonItem icon="sap-icon://add-favorite" key="1"/>
+						<SegmentedButtonItem icon="sap-icon://delete" key="2"/>
+						<SegmentedButtonItem icon="sap-icon://credit-card" key="3"/>
+						<SegmentedButtonItem icon="sap-icon://user-settings" key="4"/>
+					</items>
+				</SegmentedButton>
+			</Toolbar>
+		</footer>
+	</Page>
+</mvc:View>

@@ -1,0 +1,78 @@
+html.sap-desktop ::-webkit-scrollbar {
+    width: 5px !important;
+    height: 10px !important;
+    background-color: #0C1B36 !important;
+}
+
+html.sap-desktop ::-webkit-scrollbar-thumb {
+    background-color: gray;
+}
+
+header {
+    background: #0C1B36 !important;
+    box-shadow: none !important;
+}
+
+.sapMPageHeader::before,
+.sapMShellBrandingBar {
+    background: #0C1B36 !important;
+    border: 0 !important;
+    height: 0 !important;
+}
+
+section,
+.sapMListUl li {
+    background: #0C1B36 !important;
+    border: none;
+    padding: 0 0.1rem 0 0.1rem !important;
+    width: auto !important;
+}
+
+footer {
+    margin: 0 !important;
+    width: 100% !important;
+    background: transparent !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    height: 3rem !important;
+}
+
+footer ul {
+    margin: 0 !important;
+    height: 3rem !important;
+}
+
+footer ul li {
+    background: #07152B !important;
+    border: #07152B !important;
+    height: 3rem !important;
+    line-height: 3rem !important;
+}
+
+footer ul li.sapMSegBBtn.sapMSegBBtnSel {
+    border-bottom: 0.25rem solid #EE3F26 !important;
+}
+
+footer ul li.sapMSegBBtn.sapMSegBBtnSel span {
+    color: #EE3F26 !important;
+    line-height: 3rem !important;
+}
+footer ul li span {
+    color: #727B8A !important;
+    line-height: 3rem !important;
+}
+
+.segmented_class {
+    margin-left: -0.5rem !important;
+}
+
+.segmented_class li {
+    background: #1F2E46 !important;
+    border: 1px solid #1F2E46 !important;
+    color: #727B8A !important;
+    margin-right: 0.25rem !important;
+}
+
+.segmented_class li.sapMSegBBtn.sapMSegBBtnSel {
+    color: #EE3F26 !important;
+}
